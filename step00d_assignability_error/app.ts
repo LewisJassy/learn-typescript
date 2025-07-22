@@ -1,4 +1,4 @@
 let message = "Hello World";
-message = 6;
+const message1 = 6;
 console.log(message);
         

@@ -2,18 +2,18 @@
 const a = 5;
 const b : number = 33;
 const c ="best";
+let z: number | string;
 
 //I suggest use let instead of var everywhere, 
-//becuase let has blocked scope
 if (true) {
-	let z = 4;
+	z = 4;
 	//use z
 }
 else {
-	let z = "string";
+	z = "string";
 	//use z
 }
-console.log("let: " + z);// Error: z is not defined in this scope
+console.log("let: " + z);
 
 
 
